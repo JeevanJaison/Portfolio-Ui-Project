@@ -30,6 +30,7 @@
         .section-title {
             text-align: center;
             margin: 50px 0 30px;
+            color: white;
         }
 
         .skills-list {
@@ -65,6 +66,17 @@
             padding: 20px 0;
             text-align: center;
         }
+
+        .animbody {
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(45deg, #d2001a, #7462ff);
+        }
+
+        .contact a {
+            color: wheat;
+            font-size: larger;
+        }
     </style>
 </head>
 
@@ -77,97 +89,104 @@
         </div>
     </section>
 
-    <!-- About me -->
-    <section class=" about">
-        <div class="container my-5">
-            <h2 class="section-title">About Me</h2>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <img src="ProfilePic.jpeg" class="img-fluid rounded" alt="Profile Picture">
-                </div>
-                <div class="col-md-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequatur autem at, rerum dolores
-                    obcaecati pariatur deserunt sapiente libero accusamus aperiam modi aliquam eaque. Pariatur ab
-                    magni
-                    ipsa saepe officia.
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="animbody">
 
-
-    <!-- Skills -->
-    <section class="skills">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <ul class="skills-list">
-                <li>Python</li>
-                <li>SQL</li>
-                <li>Java</li>
-                <li>C</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-                <li>Git</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Projects -->
-    <section class="projects">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="row">
-                <!-- Project 1 -->
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <img src="Tatvika1.jpeg" class="card-img-top project_image" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">VR Application for Neurodivergent and Elderly People</h5>
-                            <p class="card-text">A VR application designed to assist neurodivergent individuals and the
-                                elderly in engaging with immersive technology to improve their quality of life.</p>
-                        </div>
+        <!-- About me -->
+        <section class=" about">
+            <div class="container my-5">
+                <h2 class="section-title">About Me</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="ProfilePic.jpeg" class="img-fluid rounded" alt="Profile Picture">
                     </div>
-                </div>
-                <!-- Project 2 -->
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <img src="animal1.png" class="card-img-top project_image" alt="Project 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Animal Intrusion Detection System</h5>
-                            <p class="card-text">A system that detects and alerts authorities about animal intrusions
-                                using
-                                sensor technology and machine learning algorithms.</p>
-                        </div>
+                    <div class="col-md-6">
+                        <p style="color: wheat; font-size: large;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequatur autem at, rerum
+                            dolores
+                            obcaecati pariatur deserunt sapiente libero accusamus aperiam modi aliquam eaque. Pariatur
+                            ab
+                            magni
+                            ipsa saepe officia.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-    </section>
+        </section>
 
 
-    <section class="More">
-        <a href="https://github.com/JeevanJaison" target="_blank">
-            <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button">More projects</button>
+        <!-- Skills -->
+        <section class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills-list">
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Git</li>
+                </ul>
             </div>
-        </a>
-    </section>
+        </section>
 
-
-    <section class="contact">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="row text-center">
-                <p>Email: <a href="mailto:jeevanjaisonjmj@gmail.com">Email</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/jeevanjaison" target="_blank">LinkedIn</a></p>
-                <p>GitHub: <a href="https://www.github.com/JeevanJaison" target="_blank">GitHub</a>
-                </p>
+        <!-- Projects -->
+        <section class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="row">
+                    <!-- Project 1 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <img src="Tatvika1.jpeg" class="card-img-top project_image" alt="Project 1">
+                            <div class="card-body">
+                                <h5 class="card-title">VR Application for Neurodivergent and Elderly People</h5>
+                                <p class="card-text">A VR application designed to assist neurodivergent individuals and
+                                    the
+                                    elderly in engaging with immersive technology to improve their quality of life.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <img src="animal1.png" class="card-img-top project_image" alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Animal Intrusion Detection System</h5>
+                                <p class="card-text">A system that detects and alerts authorities about animal
+                                    intrusions
+                                    using
+                                    sensor technology and machine learning algorithms.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
+
+        <section class="More">
+            <a href="https://github.com/JeevanJaison" target="_blank">
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="button">More projects</button>
+                </div>
+            </a>
+        </section>
+
+
+        <section class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="row text-center">
+                    <p><a href="mailto:jeevanjaisonjmj@gmail.com">Email</a></p>
+                    <p><a href="https://www.linkedin.com/in/jeevanjaison" target="_blank">LinkedIn</a></p>
+                    <p><a href="https://www.github.com/JeevanJaison" target="_blank">GitHub</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
